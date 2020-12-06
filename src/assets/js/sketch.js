@@ -57,9 +57,7 @@ const elements = [
  * 2: Game Over
  */
 let screen = 0;
-setTimeout(() => {
-  screen = 1;
-}, 1000);
+
 /**
  * Instància que controla totes
  * les propietats del canvas generat
