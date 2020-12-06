@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
+    "deploy": "run-s build ghp",
     "build": "NODE_ENV=production webpack -p",
     "start": "webpack-dev-server --mode development --open",
     "ghp": "gh-pages -d dist"
