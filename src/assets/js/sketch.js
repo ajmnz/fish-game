@@ -57,7 +57,9 @@ const elements = [
  * 2: Game Over
  */
 let screen = 0;
-
+setTimeout(() => {
+  screen = 1;
+}, 1000);
 /**
  * Instància que controla totes
  * les propietats del canvas generat
@@ -197,7 +199,7 @@ const sketch = (s) => {
   const game = () => {
     s.imageMode(s.CORNER);
     s.background(bgImage);
-
+    s.imageMode(s.CENTER);
     /**
      * Utilitzem la interpolació linial per tal d'aconseguir
      * que el narval segueixi el cursor, però de manera retrassada.
