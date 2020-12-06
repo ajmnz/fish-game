@@ -1,6 +1,8 @@
 # Fish Game
 Made with p5.js. Eat as many fish as you can in under 1 minute.
 
+**Live demo: https://ajmnz.github.io/fish-game**
+
 # Installation
 Clone this repository
 
